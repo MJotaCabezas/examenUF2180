@@ -8,14 +8,25 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * @author David
+ * @author MJotaCabrzas
  *
  */
+
+
+
+//Crear el usuario y otorgarle los permisos 
+
+/*create user empresaUsuario identified by "1401";
+
+grant all privileges on empresa.* to empresaUsuario;
+flush privileges;*/
+
+
 public class ConexionBD {
 
 	private static final String database = "empresa";
-	private static final String usuario = "root";
-	private static final String contraseña = "123456";
+	private static final String usuario = "empresaUsuario";
+	private static final String contraseña = "1401";
 	private static final String url="jdbc:mysql://localhost/"+database;
 	
 	private Connection conexion=null;

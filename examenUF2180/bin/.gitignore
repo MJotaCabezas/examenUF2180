@@ -1,8 +1,6 @@
-/conexion/
-/controlador/
-/dao/
-/driver/
-/images/
-/modelo/
-/vista/
 /sql/
+/conexion/
+/modelo/
+/dao/
+/controlador/
+/vista/
